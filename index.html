@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <H1>Formulario</H1>
+    
+    <h2 class="tittleEncu">Encuesta</h2>
+    <form action="index.php" method="post"></form>
+        <span><span class="textRojo">*</span> Por favor no deje espacios en blanco.</span>
+        <form action="" method="get">
+            <label for=""><span class="textRojo">*</span> Digite su nombre:</label> <input value="nombre" type="text" name="nombre" id="nombre"><br>
+            <label for=""><span class="textRojo">* </span>Fecha nacimiento: </label> <input type="date" name="fechaNaci" id="fechaNaci"><br>
+            <label for="">Actividades que le gusta hacer en sus tiempos libres.</label>
+            <textarea name="actividades" id="actividades" cols="30" rows="10"></textarea><br>
+
+            <label  for="">Indicar los deportes que practica: </label><br><br>
+            <input type="checkbox" name="futbol" id="futbol"><label for="">Futbol</label><br>
+            <input type="checkbox" name="Baloncesto" id="Baloncesto"><label for="">Baloncesto</label><br>
+            <input type="checkbox" name="Patinaje" id="Patinaje"><label for="">Patinaje</label><br>
+            <input type="checkbox" name="Volleyball" id="Volleyball"><label for="">Volleyball</label><br>
+            <input type="checkbox" name="Ninguno" id="Ninguno"><label for="">Ninguno</label><br>
+
+            <label for="">Seleccione que le gusta mas de las siguientes actividades: </label><br><br>
+
+            <input type="radio" name="actividad" id="actividad"><label for="">Jugar en el parque</label><br>
+            <input type="radio" name="actividad" id="actividad"><label for="">Dormir</label><br>
+            <input type="radio" name="actividad" id="actividad"><label for="">Leer</label><br>
+            <input type="radio" name="actividad" id="actividad"><label for="">Internet</label><br><br>
+            
+            <input type="submit" value="Enviar">
+
+        <!-- </form>
+        <h3>Audio</h3>
+
+        <audio controls>
+            <source src="https://www.w3schools.com/tags/horse.ogg" type="audio/ogg">
+            <source src="https://www.w3schools.com/tags/horse.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <h3>Video</h3>
+
+        <video width="320" height="240" controls>
+            <source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4">
+            <source src="https://www.w3schools.com/tags/movie.mp4" type="video/ogg">
+            Your browser does not support the video tag.
+        </video> -->
+
+    </form>
+</body>
+</html>
